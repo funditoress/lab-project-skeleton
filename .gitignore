@@ -172,3 +172,14 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# --- Senin Projene Özel ---
+data/*.pth
+wandb/
+
+# Data ve model dosyalarını GitHub'a asla gönderme
+data/
+*.pth
+__pycache__/
+.ipynb_checkpoints/
+wandb/
